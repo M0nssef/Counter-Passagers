@@ -1,0 +1,52 @@
+body {
+    background-image: url("yarn.jpeg");
+    background-size: cover;
+    font-family: Roboto,sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+}
+.container{
+    background-color: white;
+    max-width:80%; 
+    margin: auto;
+    border: 3px solid black ;
+    border-radius: .5rem;  
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif ,sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 1 solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 5px ;
+    color: white;
+    font-weight: bolder;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: blue;
+}
+
+#save-btn {
+    color: white;
+    background: green;
+}
+
+#save-el{
+    color: black;
+    font-size: 1rem;
+}
